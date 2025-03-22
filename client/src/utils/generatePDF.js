@@ -212,6 +212,7 @@ const generatePDF = (semesterData, gpa, preview = false) => {
       fillColor: [26, 189, 156],
       textColor: [255, 255, 255],
       lineWidth: 0.5, // Thicker border for headers
+      halign: "center",
     },
     bodyStyles: {
       fontStyle: "normal", // Normal font for body text
@@ -362,6 +363,7 @@ const generatePDF = (semesterData, gpa, preview = false) => {
       fillColor: [26, 189, 156],
       textColor: [255, 255, 255],
       lineWidth: 0.5,
+      halign: "center",
     },
     bodyStyles: {
       fontStyle: "normal",
